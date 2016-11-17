@@ -1,0 +1,137 @@
+import java.util.*;
+
+public class HockeyGame{
+
+  public static void main(String[] args){
+    
+    Scanner input = new Scanner(System.in);
+    
+    int cupWinner = Math.ceil(Math.random()*30);
+    String cupTeam = null;
+    
+    switch (cupWinner){
+    case 1..5:
+      cupTeam = "Anaheim Ducks";
+      break;
+      
+    case 2:
+      cupTeam = "Boston Bruins";
+      break;
+      
+    case 3:
+      cupTeam = "Buffalo Sabres";
+      break;
+      
+    case 4:
+      cupTeam = "Calgary Flames";
+      break;
+      
+    case 5:
+      cupTeam = "Carolina Hurricanes";
+      break;
+      
+    case 6:
+      cupTeam = "Chicago Blackhawks";
+      break;
+      
+    case 7:
+      cupTeam = "Colorado Avalanche";
+      break;
+      
+    case 8:
+      cupTeam = "Columbus Blue Jackets";
+      break;
+      
+    case 9:
+      cupTeam = "Dallas Stars";
+      break;
+      
+    case 10:
+      cupTeam = "Detroit Red Wings";
+      break;
+      
+    case 11:
+      cupTeam = "Edmonton Oilers";
+      break;
+      
+    case 12:
+      cupTeam = "Florida Panthers";
+      break;
+      
+    case 13:
+      cupTeam = "Los Angeles Kings";
+      break;
+      
+    case 14:
+      cupTeam = "Minnesota Wild";
+      break;
+      
+    case 15:
+      cupTeam = "Montreal Canadiens";
+      break;
+      
+      case 16:
+      cupTeam = "Nashville Predators";
+      break;
+      
+      case 17:
+      cupTeam = "New Jersey Devils";
+      break;
+      
+      case 18:
+      cupTeam = "New York Islanders";
+      break;
+      
+      case 19:
+      cupTeam = "New York Rangers";
+      break;
+      
+      case 20:
+      cupTeam = "Ottawa Senators";
+      break;
+      
+      case 21:
+      cupTeam = "Philadelphia Flyers";
+      break;
+      
+      case 22:
+      cupTeam = "Arizona Coyotes";
+      break;
+      
+      case 23:
+      cupTeam = "Pittsburgh Penguins";
+      break;
+      
+      case 24:
+      cupTeam = "St. Louis Blues";
+      break;
+      
+      case 25:
+      cupTeam = "San Jose Sharks";
+      break;
+      
+      case 26:
+      cupTeam = "Tampa Bay Lightning";
+      break;
+      
+      case 27:
+      cupTeam = "Toronto Maple Leafs";
+      break;
+      
+      case 28:
+      cupTeam = "Vancouver Canucks";
+      break;
+      
+      case 29:
+      cupTeam = "Washington Capitals";
+      break;
+      
+      case 30:
+      cupTeam = "Winnipeg Jets";
+      break;     
+    }
+    
+    System.out.println("The " + cupTeam + "won the Stanley Cup!");
+ 
+  }
+}
